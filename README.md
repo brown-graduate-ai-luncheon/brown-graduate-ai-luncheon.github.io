@@ -1,6 +1,6 @@
-# ANCOR (AI, Neuro, CogSci Research) talks
+# Brown Graduate AI Luncheon talks
 
-Website: https://brown-ancor.github.io
+Website: brown-graduate-ai-luncheon.github.io
 
 ## How to compile the website:
 
