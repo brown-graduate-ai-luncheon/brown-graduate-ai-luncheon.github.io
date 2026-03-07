@@ -1,13 +1,9 @@
 locations:
-  - name: Carney Institute Innovation Zone, 164 Angell St (4th ﬂoor)
-    gmaps: https://maps.app.goo.gl/WPWpT8BrocitU7HbA
-  - name: CIT 477 (Lubrano), 115 Waterman St
-    gmaps: https://maps.app.goo.gl/f9uriuEiVXWUgWZJ7
-  - name: Metcalf/CoPsy Department, 190 Thayer St
-    gmaps: https://maps.app.goo.gl/e8SXR7ZWUXBTAfPT6
-
+  - name: Barus House, 340 Brook St, Providence, RI 02912
+    gmaps: https://maps.app.goo.gl/LVpyaK3K8dd8WEoJ9
+    
 contact:
-  - email: "aalok [at] brown [dot] edu"
-    name: Aalok Sathe
-  - email: "michael_lepori [at] brown [dot] edu"
-    name: Mikey Lepori
+  - email: "etha_hua [at] brown [dot] edu"
+    name : Etha Hua
+  - email: "zhuonan_yang [at] brown [dot] edu"
+    name : Jojo Yang
