@@ -189,6 +189,8 @@
           
           
           
+          
+          
           <!-- <div class="card" style="background-color:lightyellow"> -->
           <div class="card"
             style="background-color:lightyellow">
@@ -196,15 +198,15 @@
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Understanding Attention from First Principles: From Singular Vectors to Interpretable Causal Circuits</p>
+                  <p class="title is-4">Self-Improving Loops for Visual Robotic Planning</p>
                   <p class="is-6">
-                    <a href="https://gaabrielfranco.github.io/"
-                      target="_blank"><b>Gabriel Franco</b></a>
+                    <a href="https://zilaiz.github.io/"
+                      target="_blank"><b>Zilai Zeng</b></a>
                     
                   </p>
-                  <p class="is-5">Boston University (Graduate Student)</p>
+                  <p class="is-5">Brown University (PhD Student)</p>
                   &nbsp;
-                  <p><b>Date:</b> March 12, 2026 (Thursday) at 12pm</p>
+                  <p><b>Date:</b> March 19, 2026 (Thursday) at 12pm</p>
                   <p><b>Location:</b> Barus House, 340 Brook St, Providence, RI 02912</p>
                   <div class="content">
                     <p><b>Abstract:</b>
@@ -215,7 +217,7 @@
                       </a>
                     </p>
                     <div class="abstract-content" style="display: none;">
-                      <p>The attention mechanism is a foundational building block of modern large language models (LLMs). However, a fundamental question in mechanistic interpretability is: why does an attention head attend to a specific token pair? This talk presents a unified, first-principles framework to address this question. We first establish a sound theoretical and empirical justification for identifying attention features, demonstrating that the singular vectors of attention matrices robustly align with feature representations. Building on this observation, we introduce ACC++, a method for extracting low-dimensional signals that are causal to attention, using only a single forward pass. We then use ACC++ to trace per-prompt circuits, showing that circuits are intrinsically prompt-specific, and that averaging over prompts obscures distinct underlying mechanisms. We demonstrate how prompt-specific circuits cluster into families, and we propose the notion of a representative circuit to analyze the differences between these families. Finally, we introduce a fully automated pipeline that leverages ACC++ signals to discover highly interpretable circuits across multiple LLMs, shedding light on algorithmic differences between prompt-specific circuits.</p>
+                      <p>Video generative models trained on expert demonstrations have been utilized as performant text-conditioned visual planners for solving robotic tasks. However, generalization to unseen tasks remains a challenge. Whereas improved generalization may be facilitated by leveraging learned prior knowledge from additional pre-collected offline data sources, such as web-scale video datasets, in the era of experience we aim to design agents that can continuously improve in an online manner from self-collected behaviors. In this work we thus propose the Self-Improving Loops for Visual Robotic Planning (SILVR), where an in-domain video model iteratively updates itself on self-produced trajectories, and steadily improves its performance for a specified task of interest. We apply SILVR to a diverse suite of MetaWorld tasks, as well as two manipulation tasks on a real robot arm, and find that performance improvements continuously emerge over multiple iterations for novel tasks unseen during initial in-domain video model training. We demonstrate that SILVR is robust in the absence of human-provided ground-truth reward functions or expert-quality demonstrations, and is preferable to alternate approaches that utilize online experience in terms of performance and sample efficiency.</p>
                     </div>
 
                     <script>
@@ -250,6 +252,63 @@
           
 
           
+        
+
+           <div class="card"
+            style="background-color:blanchedalmond">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Understanding Attention from First Principles: From Singular Vectors to Interpretable Causal Circuits</p>
+                  <p class="is-6">
+                    <a href="https://gaabrielfranco.github.io/"
+                      target="_blank"><b>Gabriel Franco</b></a>
+                    
+                  </p>
+                  <p class="is-5">Boston University (Graduate Student)</p>
+                  &nbsp;
+                  <p><b>Date:</b> March 12, 2026 (Thursday) at 12pm</p>
+                  <p><b>Location:</b> Barus House, 340 Brook St, Providence, RI 02912</p>
+                  
+                  <p> <a href="https://brown.zoom.us/rec/share/EQylG96FV639yB-_HjmOThfPnNRWRZ4ntFrP6155ZtcDcvdMFlirgFzk9Lqouy57.TDzC8jQ_UyO8ZChT" target="_blank" style="color: inherit; text-decoration: underline;">
+                      <b>Link to recording</b> </a></p>
+                  
+                  <div class="content">
+                    <p><b>Abstract:</b>
+                      <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                        <span class="icon">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </a>
+                    </p>
+                    <div class="abstract-content" style="display: none;">
+                      <p>The attention mechanism is a foundational building block of modern large language models (LLMs). However, a fundamental question in mechanistic interpretability is: why does an attention head attend to a specific token pair? This talk presents a unified, first-principles framework to address this question. We first establish a sound theoretical and empirical justification for identifying attention features, demonstrating that the singular vectors of attention matrices robustly align with feature representations. Building on this observation, we introduce ACC++, a method for extracting low-dimensional signals that are causal to attention, using only a single forward pass. We then use ACC++ to trace per-prompt circuits, showing that circuits are intrinsically prompt-specific, and that averaging over prompts obscures distinct underlying mechanisms. We demonstrate how prompt-specific circuits cluster into families, and we propose the notion of a representative circuit to analyze the differences between these families. Finally, we introduce a fully automated pipeline that leverages ACC++ signals to discover highly interpretable circuits across multiple LLMs, shedding light on algorithmic differences between prompt-specific circuits.</p>
+                    </div>
+
+                    <script>
+                      function toggleAbstract(link) {
+                        const abstractContent = link.parentElement?.nextElementSibling;
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        &nbsp;
+        
         
 
            <div class="card"

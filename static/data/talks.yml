@@ -17,10 +17,22 @@
 # COMMENTED OUT SPEAKERS ARE FUTURE UPCOMING TALKS
 #
 
+
+
+- speaker: "Zilai Zeng"
+  speakerlink: https://zilaiz.github.io/
+  title: "Self-Improving Loops for Visual Robotic Planning"
+  affiliation: Brown University (PhD Student)
+  abstract: "Video generative models trained on expert demonstrations have been utilized as performant text-conditioned visual planners for solving robotic tasks. However, generalization to unseen tasks remains a challenge. Whereas improved generalization may be facilitated by leveraging learned prior knowledge from additional pre-collected offline data sources, such as web-scale video datasets, in the era of experience we aim to design agents that can continuously improve in an online manner from self-collected behaviors. In this work we thus propose the Self-Improving Loops for Visual Robotic Planning (SILVR), where an in-domain video model iteratively updates itself on self-produced trajectories, and steadily improves its performance for a specified task of interest. We apply SILVR to a diverse suite of MetaWorld tasks, as well as two manipulation tasks on a real robot arm, and find that performance improvements continuously emerge over multiple iterations for novel tasks unseen during initial in-domain video model training. We demonstrate that SILVR is robust in the absence of human-provided ground-truth reward functions or expert-quality demonstrations, and is preferable to alternate approaches that utilize online experience in terms of performance and sample efficiency."
+  date: 2026-03-19
+  time: 12pm
+  location: Barus House, 340 Brook St, Providence, RI 02912
+
 - speaker: "Gabriel Franco"
   speakerlink: https://gaabrielfranco.github.io/
   title: "Understanding Attention from First Principles: From Singular Vectors to Interpretable Causal Circuits"
   affiliation: Boston University (Graduate Student)
+  recording: https://brown.zoom.us/rec/share/EQylG96FV639yB-_HjmOThfPnNRWRZ4ntFrP6155ZtcDcvdMFlirgFzk9Lqouy57.TDzC8jQ_UyO8ZChT
   abstract: "The attention mechanism is a foundational building block of modern large language models (LLMs). However, a fundamental question in mechanistic interpretability is: why does an attention head attend to a specific token pair? This talk presents a unified, first-principles framework to address this question. We first establish a sound theoretical and empirical justification for identifying attention features, demonstrating that the singular vectors of attention matrices robustly align with feature representations. Building on this observation, we introduce ACC++, a method for extracting low-dimensional signals that are causal to attention, using only a single forward pass. We then use ACC++ to trace per-prompt circuits, showing that circuits are intrinsically prompt-specific, and that averaging over prompts obscures distinct underlying mechanisms. We demonstrate how prompt-specific circuits cluster into families, and we propose the notion of a representative circuit to analyze the differences between these families. Finally, we introduce a fully automated pipeline that leverages ACC++ signals to discover highly interpretable circuits across multiple LLMs, shedding light on algorithmic differences between prompt-specific circuits."
   date: 2026-03-12
   time: 12pm
