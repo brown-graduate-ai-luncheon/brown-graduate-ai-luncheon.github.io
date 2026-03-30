@@ -191,6 +191,8 @@
           
           
           
+          
+          
           <!-- <div class="card" style="background-color:lightyellow"> -->
           <div class="card"
             style="background-color:lightyellow">
@@ -198,15 +200,15 @@
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Self-Improving Loops for Visual Robotic Planning</p>
+                  <p class="title is-4">Reading Between the Lines: Measuring Faithfulness, Subjectivity, and Bias in LLM Interpretations of Human Narrative</p>
                   <p class="is-6">
-                    <a href="https://zilaiz.github.io/"
-                      target="_blank"><b>Zilai Zeng</b></a>
+                    <a href="https://melaniesubbiah.github.io/"
+                      target="_blank"><b>Melanie Subbiah</b></a>
                     
                   </p>
-                  <p class="is-5">Brown University (PhD Student)</p>
+                  <p class="is-5">Columbia University (PhD Student)</p>
                   &nbsp;
-                  <p><b>Date:</b> March 19, 2026 (Thursday) at 12pm</p>
+                  <p><b>Date:</b> April 09, 2026 (Thursday) at 12pm</p>
                   <p><b>Location:</b> Barus House, 340 Brook St, Providence, RI 02912</p>
                   <div class="content">
                     <p><b>Abstract:</b>
@@ -217,7 +219,7 @@
                       </a>
                     </p>
                     <div class="abstract-content" style="display: none;">
-                      <p>Video generative models trained on expert demonstrations have been utilized as performant text-conditioned visual planners for solving robotic tasks. However, generalization to unseen tasks remains a challenge. Whereas improved generalization may be facilitated by leveraging learned prior knowledge from additional pre-collected offline data sources, such as web-scale video datasets, in the era of experience we aim to design agents that can continuously improve in an online manner from self-collected behaviors. In this work we thus propose the Self-Improving Loops for Visual Robotic Planning (SILVR), where an in-domain video model iteratively updates itself on self-produced trajectories, and steadily improves its performance for a specified task of interest. We apply SILVR to a diverse suite of MetaWorld tasks, as well as two manipulation tasks on a real robot arm, and find that performance improvements continuously emerge over multiple iterations for novel tasks unseen during initial in-domain video model training. We demonstrate that SILVR is robust in the absence of human-provided ground-truth reward functions or expert-quality demonstrations, and is preferable to alternate approaches that utilize online experience in terms of performance and sample efficiency.</p>
+                      <p>From AI companions and mental health chatbots to automated research assistants and content moderation systems, large language models (LLMs) are increasingly deployed in high-stakes contexts that require interpretation of human communication — inferring implicit intentions, identifying emotions, and navigating plurality in possible interpretations. Yet we have little understanding of where they fail at this kind of deep interpretation or how to make their behavior in these contexts transparent to users. This talk examines both questions through four studies focused on narrative as a rich testbed for interpretation. Working with professional writers, I first show that state-of-the-art LLMs make faithfulness errors in over half of short story summaries, struggling most with subtext and implicit emotion. Building on this study, I introduce StorySumm, a benchmark revealing that no existing automatic metric reliably catches the hardest of such errors. Then, I present the Ambiguity Rewrite Metric (ARM), which addresses the inherent subjectivity of narrative evaluation by rewriting ambiguous claims with explanations, yielding substantially higher annotator agreement and more transparent model outputs. Finally, in collaboration with psychologists, I measure race and gender biases in framing and emotional content in LLM summaries of real personal narratives  — raising important questions about using LLMs as tools for qualitative research. Together, these projects argue for a human-centric approach to NLP evaluation and model design that takes seriously both the complexity and diversity of the human experience.</p>
                     </div>
 
                     <script>
@@ -252,6 +254,60 @@
           
 
           
+        
+
+           <div class="card"
+            style="background-color:blanchedalmond">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Self-Improving Loops for Visual Robotic Planning</p>
+                  <p class="is-6">
+                    <a href="https://zilaiz.github.io/"
+                      target="_blank"><b>Zilai Zeng</b></a>
+                    
+                  </p>
+                  <p class="is-5">Brown University (PhD Student)</p>
+                  &nbsp;
+                  <p><b>Date:</b> March 19, 2026 (Thursday) at 12pm</p>
+                  <p><b>Location:</b> Barus House, 340 Brook St, Providence, RI 02912</p>
+                  
+                  <div class="content">
+                    <p><b>Abstract:</b>
+                      <a href="javascript:void(0);" onclick="toggleAbstract(this)">
+                        <span class="icon">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </a>
+                    </p>
+                    <div class="abstract-content" style="display: none;">
+                      <p>Video generative models trained on expert demonstrations have been utilized as performant text-conditioned visual planners for solving robotic tasks. However, generalization to unseen tasks remains a challenge. Whereas improved generalization may be facilitated by leveraging learned prior knowledge from additional pre-collected offline data sources, such as web-scale video datasets, in the era of experience we aim to design agents that can continuously improve in an online manner from self-collected behaviors. In this work we thus propose the Self-Improving Loops for Visual Robotic Planning (SILVR), where an in-domain video model iteratively updates itself on self-produced trajectories, and steadily improves its performance for a specified task of interest. We apply SILVR to a diverse suite of MetaWorld tasks, as well as two manipulation tasks on a real robot arm, and find that performance improvements continuously emerge over multiple iterations for novel tasks unseen during initial in-domain video model training. We demonstrate that SILVR is robust in the absence of human-provided ground-truth reward functions or expert-quality demonstrations, and is preferable to alternate approaches that utilize online experience in terms of performance and sample efficiency.</p>
+                    </div>
+
+                    <script>
+                      function toggleAbstract(link) {
+                        const abstractContent = link.parentElement?.nextElementSibling;
+                        const icon = link.querySelector('.fa-chevron-down, .fa-chevron-up');
+                        if (abstractContent && icon) {
+                          if (abstractContent.style.display === "none") {
+                            abstractContent.style.display = "block";
+                            icon.classList.remove('fa-chevron-down');
+                            icon.classList.add('fa-chevron-up');
+                          } else {
+                            abstractContent.style.display = "none";
+                            icon.classList.remove('fa-chevron-up');
+                            icon.classList.add('fa-chevron-down');
+                          }
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        &nbsp;
+        
         
 
            <div class="card"
