@@ -25,9 +25,8 @@
   affiliation: Columbia University (PhD Student)
   abstract: "From AI companions and mental health chatbots to automated research assistants and content moderation systems, large language models (LLMs) are increasingly deployed in high-stakes contexts that require interpretation of human communication — inferring implicit intentions, identifying emotions, and navigating plurality in possible interpretations. Yet we have little understanding of where they fail at this kind of deep interpretation or how to make their behavior in these contexts transparent to users. This talk examines both questions through four studies focused on narrative as a rich testbed for interpretation. Working with professional writers, I first show that state-of-the-art LLMs make faithfulness errors in over half of short story summaries, struggling most with subtext and implicit emotion. Building on this study, I introduce StorySumm, a benchmark revealing that no existing automatic metric reliably catches the hardest of such errors. Then, I present the Ambiguity Rewrite Metric (ARM), which addresses the inherent subjectivity of narrative evaluation by rewriting ambiguous claims with explanations, yielding substantially higher annotator agreement and more transparent model outputs. Finally, in collaboration with psychologists, I measure race and gender biases in framing and emotional content in LLM summaries of real personal narratives  — raising important questions about using LLMs as tools for qualitative research. Together, these projects argue for a human-centric approach to NLP evaluation and model design that takes seriously both the complexity and diversity of the human experience."
   date: 2026-04-09
-  time: 12pm
+  time: 10:30am
   location: Barus House, 340 Brook St, Providence, RI 02912
-
 
 - speaker: "Zilai Zeng"
   speakerlink: https://zilaiz.github.io/
