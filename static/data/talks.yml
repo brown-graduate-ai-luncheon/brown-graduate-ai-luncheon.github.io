@@ -17,7 +17,12 @@
 # COMMENTED OUT SPEAKERS ARE FUTURE UPCOMING TALKS
 #
 
-
+- speaker: "William Nardi"
+  title: "Developing Wrap-Around GenAI Systems for Anxiety: Interdisciplinary Lessons from the Going Beyond Anxiety Program"
+  affiliation: Brown University
+  date: 2026-04-23
+  time: 12:00pm
+  location: Barus House, 340 Brook St, Providence, RI 02912
 
 - speaker: "Melanie Subbiah"
   speakerlink: https://melaniesubbiah.github.io/
